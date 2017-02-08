@@ -1,0 +1,43 @@
+// define your general base variables here
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: sans-serif;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 1.4;
+
+// Fixed Font
+$fixed-font-family: monospace;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;
+
+// Colors
+
+//images
+
+img{
+  width: 800px;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+  padding: 5px;
+  border-radius: 5px;
+}
+.lb-container img{
+  padding: 0;
+}
+
+body{
+  padding: 30px;
+}
+
+section{
+  margin-bottom: 50px;
+}
